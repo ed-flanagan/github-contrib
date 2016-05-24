@@ -5,14 +5,14 @@ $(document).ready(function addStreak() {
     // Iterate over each column of the contribution calendar
     // The high number of child levels is to assure proper elements are
     // selected. This is because 'contributions-calendar' is the closest id
-    $('div#contributions-calendar')
-            .children('div.js-calendar-graph')
-            .children('svg.js-calendar-graph-svg')
+    $('#contributions-calendar')
+            .children('.js-calendar-graph')
+            .children('.js-calendar-graph-svg')
             .children('g')
             .children('g')
             .each(function (col) {
         // Iterate over each day of a contribution column
-        $(this).children('rect.day').each(function (day) {
+        $(this).children('.day').each(function (day) {
             // data-count attribute: number of contributions for that day
             var dayCount = $(this).attr('data-count');
 
@@ -46,7 +46,7 @@ $(document).ready(function addStreak() {
     // Insert the current streak text to the GitHub page
     var streakMsg = '\n<br>\nLongest streak of ' + longestStreak +
             ' day' + ((longestStreak == 1) ? '' : 's') + ' in the last year';
-    $('div#contributions-calendar')
+    $('#contributions-calendar')
             .parent()
             .children('h3')
             .first()
