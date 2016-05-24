@@ -15,7 +15,7 @@ $(document).ready(function addStreak() {
         $(this).children('rect.day').each(function (day) {
             // data-count attribute: number of contributions for that day
             var dayCount = $(this).attr('data-count');
-          
+
             if (dayCount > 0) {
                 // If the number of contributions for that day is greater than
                 // 0, increment the current streak
