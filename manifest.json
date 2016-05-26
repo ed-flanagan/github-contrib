@@ -4,8 +4,8 @@
     "name":         "GitHub Streak",
     "short_name":   "Git Streak",
     "description":  "Displays a user's longest GitHub streak in the last year.",
-    "version":      "1.0.0",
-    "version_name": "1.0.0 Yearly 'Quota'",
+    "version":      "1.1.0",
+    "version_name": "1.1.0 Yearly 'Turbo'",
     "homepage_url": "https://github.com/ed-flanagan/github-streak",
     "author":       "Ed Flanagan",
 
