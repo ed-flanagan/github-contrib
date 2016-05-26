@@ -43,7 +43,7 @@ $(document).ready(function addStreak() {
         longestStreak = currentStreak;
     }
 
-    // Insert the current streak text to the GitHub page
+    // 'Inject' the streak count into the GitHub profile
     var streakMsg = '\n<br>\nLongest streak of ' + longestStreak +
             ' day' + ((longestStreak == 1) ? '' : 's') + ' in the last year';
     $('#contributions-calendar')
