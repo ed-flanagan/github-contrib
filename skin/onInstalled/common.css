@@ -1,0 +1,10 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+a.chromeOptLink, a.chromeOptLink:visited {
+    color: blue;
+}
+

@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>GitHub Contributions Options</title>
+    
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <h3>Options:</h3>
+
+    Select mode:
+
+    <select id="mode">
+        <option value="modern">Modern</option>
+        <option value="classic">Classic</option>
+        <option value="disable">Disable</option>
+        <option value="nothing">Do Nothing</option>
+    </select>
+
+    <div id="modernOpts" class="options">
+        <ul class="options-list">
+            <li><input id="modernContrib" type="checkbox">Contributions</input></li>
+            <li><input id="modernLongStreak" type="checkbox">Longest Streak</input></li>
+            <li><input id="modernCurrStreak" type="checkbox">Current Streak</input></li>
+            <li><input id="modernDates" type="checkbox">Dates</input></li>
+        </ul>
+    </div>
+
+    <div id="classicOpts" class="options">
+        <ul class="options-list">
+            <li><input id="classicContrib" type="checkbox">Contributions</input></li>
+            <li><input id="classicLongStreak" type="checkbox">Longest Streak</input></li>
+            <li><input id="classicCurrStreak" type="checkbox">Current Streak</input></li>
+        </ul>
+    </div>
+
+    <div id="disableOpts" class="options">
+        <ul class="options-list">
+            <li><input id="disableCalendar" type="checkbox">Disable Calendar</input></li>
+            <li><input id="disableActivity" type="checkbox">Disable Activity</input></li>
+        </ul>
+    </div>
+
+    <div id="nothingOptions" class="options">
+    </div>
+
+    <div id="status"></div>
+
+    <button id="save">Save</button>
+
+    <script src="options.js"></script>
+</body>
+
+</html>
+

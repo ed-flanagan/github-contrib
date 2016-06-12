@@ -1,0 +1,149 @@
+{
+    "name": {
+        "message": "GitHub Contributions",
+        "description": "Extension name"
+    },
+    "shortName": {
+        "message": "Git Contrib",
+        "description": "Extension short name"
+    },
+    "description": {
+        "message": "Modify and customize GitHub's contribution display",
+        "description": "Extension description"
+    },
+
+
+    "modernContribMsgSing": {
+        "message": "$totalContributions$ contribution in the last year",
+        "description": "",
+        "placeholders": {
+            "totalContributions": {
+                "content": "1"
+            }
+        }
+    },
+    "modernContribMsgPlur": {
+        "message": "$totalContributions$ contributions in the last year",
+        "description": "",
+        "placeholders": {
+            "totalContributions": {
+                "content": "$1",
+                "example": "182"
+            }
+        }
+    },
+    "modernLongStreakMsgSing": {
+        "message": "Longest streak of $longestStreak$ day in the last year",
+        "description": "",
+        "placeholders": {
+            "longestStreak": {
+                "content": "1"
+            }
+        }
+    },
+    "modernLongStreakMsgPlur": {
+        "message": "Longest streak of $longestStreak$ days in the last year",
+        "description": "",
+        "placeholders": {
+            "longestStreak": {
+                "content": "$1",
+                "example": "4"
+            }
+        }
+    },
+    "modernCurrStreakMsgSing": {
+        "message": "Current streak of $currStreak$ day",
+        "description": "",
+        "placeholders": {
+            "currStreak": {
+                "content": "1"
+            }
+        }
+    },
+    "modernCurrStreakMsgPlur": {
+        "message": "Current streak of $currStreak$ days",
+        "description": "",
+        "placeholders": {
+            "currStreak": {
+                "content": "$1",
+                "example": "4"
+            }
+        }
+    },
+
+
+    "classicContribMsg": {
+        "message": "Contributions in the last year",
+        "description": ""
+    },
+    "classicLongStreakMsg": {
+        "message": "Longest streak in the last year",
+        "description": ""
+    },
+    "classicCurrStreakMsg": {
+        "message": "Current streak",
+        "description": ""
+    },
+    "daysSing": {
+        "message": "$numDays$ day",
+        "description": "",
+        "placeholders": {
+            "numDays": {
+                "content": "1"
+            }
+        }
+    },
+    "daysPlur": {
+        "message": "$numDays$ days",
+        "description": "",
+        "placeholders": {
+            "numDays": {
+                "content": "$1",
+                "example": "4"
+            }
+            
+        }
+    },
+    "lastContribDate": {
+        "message": "Last contributed $contribDate$",
+        "description": "name",
+        "placeholders": {
+            "contribDate": {
+                "content": "$1",
+                "example": "May 25, 2016"
+            }
+        }
+    },
+    "lastContribMonthSing": {
+        "message": "Last contributed $monthsAgo$ month ago",
+        "description": "",
+        "placeholders": {
+            "monthsAgo": {
+                "content": "1"
+            }
+        }
+    },
+    "lastContribMonthPlur": {
+        "message": "Last contributed $monthsAgo$ months ago",
+        "description": "",
+        "placeholders": {
+            "monthsAgo": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+
+
+    "localeError": {
+        "message": "Illegal locale '$locale$' used. Please report to https://github.com/ed-flanagan/github-contrib.",
+        "description": "",
+        "placeholders": {
+            "locale": {
+                "content": "$1",
+                "example": "en-US (this is legal, however)"
+            }
+        }
+    }
+}
+
