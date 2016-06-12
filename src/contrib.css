@@ -1,0 +1,39 @@
+/*
+ * Based off archived GitHub profiles on web.archive.org
+ */
+
+.contrib-column {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 11px;
+    padding: 15px 0;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    vertical-align: top;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: table-cell;
+    width: 1%;
+}
+
+.contrib-number {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 24px;
+    display: block;
+    color: #333;
+}
+
+/*
+ * The text-muted class still included in GitHub's CSS
+.text-muted {
+    color: #767676;
+}
+*/
+
