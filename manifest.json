@@ -4,8 +4,8 @@
     "name":         "__MSG_name__",
     "short_name":   "__MSG_shortName__",
     "description":  "__MSG_description__",
-    "version":      "2.0.0",
-    "version_name": "2.0.0 Yearly 'Expansion'",
+    "version":      "2.0.1",
+    "version_name": "2.0.1 Yearly 'Expansion'",
     "homepage_url": "https://github.com/ed-flanagan/github-contrib",
     "author":       "Ed Flanagan",
 
