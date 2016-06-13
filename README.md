@@ -36,12 +36,12 @@ Or by clicking the browser bar icon.
 GitHub announced profile contribution changes in this
 [blog post](https://github.com/blog/2173-more-contributions-on-your-profile).
 
-In this update GitHub removed commit streaks (among other things). Leaving
+In this update, GitHub removed commit streaks (among other changes). Leaving
 the contribution calendar to focus "on the work you're doing rather than the
 duration of your activity."
 
 Some users believe contribution statistics can be harmful. For example this
-[post](https://github.com/isaacs/github/issues/627)
+[post](https://github.com/isaacs/github/issues/627).
 <br>
 Others enjoy streaks and the 'classic' view.
 
@@ -51,11 +51,20 @@ contribution view.
 It holds no intention to conflict with "contribution philosophies." GitHub's
 or otherwise.
 
-## Chrome Store
+## Installing
+
+### Chrome Store
 
 You can install the extension through the Chrome Web Store:
 
 [https://chrome.google.com/webstore/detail/github-streak/ogealfeijaflhhfcpckekeoaecoficha](https://chrome.google.com/webstore/detail/github-streak/ogealfeijaflhhfcpckekeoaecoficha)
+
+### From Source
+
+You can select and download any released version from the "releases" tab of
+the repository.
+<br>
+Then, simply load the unpacked extension in your browser's extensions tab.
 
 ## License
 
